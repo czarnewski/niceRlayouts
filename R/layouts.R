@@ -7,8 +7,6 @@
 #' @export
 #' @rdname mypar
 mypar <- function(
-  R = 1,
-  C = 1,
   cex.lab = 1,
   cex.axis = 1,
   cex.main = 1,
@@ -19,7 +17,6 @@ mypar <- function(
   las = 1, ...  ){
     par(cex.lab = cex.lab, cex.axis = cex.axis, cex.main = cex.main,
   font.main = font.main, mar = mar, mgp = mgp, tcl = tcl, las = las)
-    par(mfrow = c(R, C), ...)
 }
 
 
@@ -234,5 +231,3 @@ new_layout <- function(X){
     heights = base::attr(X,"H")
   )
 }
-
-
