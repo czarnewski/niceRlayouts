@@ -5,8 +5,6 @@
 \title{AAA}
 \usage{
 mypar(
-  R = 1,
-  C = 1,
   cex.lab = 1,
   cex.axis = 1,
   cex.main = 1,
