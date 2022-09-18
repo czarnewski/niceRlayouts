@@ -230,8 +230,8 @@ combine <- function( M1 , M2 , pattern ){
 new_layout <- function(X){
   layout(
     mat     = X,
-    widths  = base::attr(A,"W"),
-    heights = base::attr(A,"H")
+    widths  = base::attr(X,"W"),
+    heights = base::attr(X,"H")
   )
 }
 
